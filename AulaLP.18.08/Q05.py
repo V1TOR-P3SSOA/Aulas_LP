@@ -32,7 +32,7 @@ while op != "0":
         n1_4 = int(input('Digite o primeiro número: '))
         n2_4= int(input('Digite o segundo número: '))
         print(f'{n1_4} / {n2_4} = {n1_4 / n2_4}')
-    elif op == 5:
+    elif op == "5":
         n1_5 = int(input('Digite o número: '))
         print(f'{n1_5} ^ 2 = {n1_5 * n1_5}')
     
