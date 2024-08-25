@@ -23,7 +23,7 @@ while op != "0":
     elif op == "2":
         n1_2 = int(input('Digite o primeiro número: '))
         n2_2= int(input('Digite o segundo número: '))
-        print(f'{n1_1} - {n2_1} = {n1_1 - n2_1}')
+        print(f'{n1_1} - {n2_2} = {n1_2 - n2_2}')
     elif op == "3":
         n1_3 = int(input('Digite o primeiro número: '))
         n2_3= int(input('Digite o segundo número: '))
