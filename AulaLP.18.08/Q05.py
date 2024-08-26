@@ -13,8 +13,6 @@ while op != "0":
     op = input('Informe a operação: ')
     if op == '0':
         print('Infelizmente a calculadora se foi :( ')
-    if op not in ["0", 1" , "2" , "3" , "4" , "5"]:
-        print('operação inválida, tente novamente')
     elif op == "1":
         n1_1 = int(input('Digite o primeiro número: '))
         n2_1 = int(input('Digite o segundo número: '))
@@ -34,4 +32,5 @@ while op != "0":
     elif op == "5":
         n1_5 = int(input('Digite o número: '))
         print(f'{n1_5} ^ 2 = {n1_5 * n1_5}')
-    
+    else:
+        print('operação inválida, tente novamente...')
