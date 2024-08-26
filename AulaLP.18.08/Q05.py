@@ -13,8 +13,7 @@ while op != "0":
     op = input('Informe a operação: ')
     if op == '0':
         print('Infelizmente a calculadora se foi :( ')
-        break
-    if op not in ["1" , "2" , "3" , "4" , "5"]:
+    if op not in ["0", 1" , "2" , "3" , "4" , "5"]:
         print('operação inválida, tente novamente')
     elif op == "1":
         n1_1 = int(input('Digite o primeiro número: '))
